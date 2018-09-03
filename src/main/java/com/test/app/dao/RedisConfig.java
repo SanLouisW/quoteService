@@ -12,6 +12,9 @@ import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
 import redis.clients.jedis.JedisPoolConfig;
 
+import java.net.URI;
+import java.net.URISyntaxException;
+
 @Configuration
 public class RedisConfig {
 
