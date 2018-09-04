@@ -1,6 +1,7 @@
 
 Run:
 This is a maven project, to run it, run this command under the project root folder:
+
 mvn package && java -jar target/quoteService-1.0-SNAPSHOT.jar
 
 Creat quote:
